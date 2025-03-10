@@ -1,0 +1,91 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+body {
+    font-family: "Lato", sans-serif;
+	margin: 0;
+	margin-bottom:80px;
+	  background-image: url("bg.png");
+	  background-repeat: repeat;
+	border: none;
+	display: flex;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.PilihPelajaran{
+	width : 100%;
+	margin: 20px;
+	
+}
+
+.PilihLevel{
+	width : 100%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.PilihMiniGame{
+	width : 100%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.button {
+  padding: 20px 20px;
+  font-size: 7vw;
+  cursor: pointer;
+  outline: black;
+  color: black;
+  background-color: white;
+  border: none;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  box-shadow: 0 6px black;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+
+.button:hover {background-color: white}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 3px black;
+  transform: translateY(4px);
+}
+
+img{
+  width: 100%;
+  cursor: pointer;
+  background-color: #203242;
+  border: none;
+  border-style: solid;
+  border-color: #203242;
+  border-radius: 20%;
+  box-shadow: 0 6px #171D23;
+}
+
+img:hover {background-color: #203242}
+
+img:active {
+  background-color: #203242;
+  box-shadow: 0 3px #171D23;
+  transform: translateY(4px);
+}
